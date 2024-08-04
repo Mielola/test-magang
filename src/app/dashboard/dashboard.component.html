@@ -1,0 +1,11 @@
+<app-sidebar/>
+<div class=" sm:ml-64">
+  <app-header></app-header>
+  <div *ngIf="showWelcomeMessage" class="h-[78vh] flex items-center justify-center">
+    <h1 class="text-black text-3xl font-semibold -tracking-tighter  text-center">Selamat Datang di Dashboard</h1>
+  </div>
+  <div class="p-4 rounded-lg ">
+  <router-outlet></router-outlet>
+</div>
+</div>
+<app-footer></app-footer>

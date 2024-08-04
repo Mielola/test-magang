@@ -1,0 +1,11 @@
+.dashboard-container {
+  display: flex;
+}
+
+app-sidebar {
+  width: 200px;
+}
+
+.content {
+  flex-grow: 1;
+}
