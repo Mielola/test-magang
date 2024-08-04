@@ -1,0 +1,9 @@
+Setelah meng-clone repository dari GitHub, lakukan langkah-langkah berikut:
+
+1. Jalankan perintah `npm install` untuk menginstal semua dependensi yang diperlukan.
+2. Setelah instalasi selesai, jalankan perintah `ng serve` untuk memulai aplikasi.
+
+Website ini memiliki dua halaman utama:
+
+1. Halaman "Table" yang menampilkan data pengguna dari API: 'https://63ef393fc59531ccf16b23ed.mockapi.io/user/listUser'.
+2. Halaman "Detail User" yang menampilkan detail pengguna yang dipilih dari API: 'https://63ef393fc59531ccf16b23ed.mockapi.io/user/1'.
